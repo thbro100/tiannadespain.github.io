@@ -43,4 +43,9 @@ hr{
 #lastModified{
   font-size: 14px;
 }
-
+#year{
+  display: inline-block;
+}
+#homepagefooter{
+  display: inline-block;
+}
