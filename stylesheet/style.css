@@ -6,7 +6,7 @@ h1, h2, p, ul, #lastModified{
   font-family: Optima;
 }
 h1, footer{
-  background-color: teal;
+  background-color: rgb(113, 235, 235);
   border-radius: 5px;
   padding: 25px 50px 25px;
 }
