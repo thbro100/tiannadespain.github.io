@@ -1,0 +1,42 @@
+body{
+  max-width: 700px;
+  margin: auto;
+}
+h1, h2, p, ul, #lastModified{
+  font-family: Optima;
+}
+h1, footer{
+  background-color: teal;
+  border-radius: 5px;
+  padding: 25px 50px 25px;
+}
+h1{
+  padding-left: 5em;
+}
+h2{
+  padding-left: 10px;
+  padding-top: 20px;
+}
+ul{ 
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+footer{
+  text-align: center;
+  padding: 5px 50px 15px}
+img {
+  max-width: 10em;
+  height: auto;
+  float: right;
+  margin-top: -80px;
+  margin-right: 3em;
+  filter:drop-shadow(0 4px 8px black)
+}
+.byuiLink{
+  color:black;
+}
+hr{
+  height: 2px;
+  background-color: #000;
+}
+
