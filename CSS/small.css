@@ -1,0 +1,54 @@
+body{
+  max-width: 700px;
+  margin: auto;
+}
+h2, p, ul, #lastModified{
+  font-family: 'Montserrat', sans-serif;
+}
+header, footer{
+  background-color: rgb(94, 194, 194);
+  padding: 5px 50px 15px
+}
+header{
+  margin-top: 10px;
+}
+h1{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5rem;
+  margin: .35rem;
+  text-align: center;
+}
+h2{
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+ul{ 
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+footer{
+  text-align: center;
+  }
+img {
+  max-width: 180px;
+  height: auto;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.byuiLink{
+  color:black;
+}
+hr{
+  height: 1.5px;
+  background-color: #000;
+}
+#lastModified, #year, #homepagefooter{
+  font-size: 10px;
+}
+#year, #homepagefooter{
+  display: inline-block;
+}
