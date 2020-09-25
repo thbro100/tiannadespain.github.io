@@ -1,0 +1,84 @@
+@media only screen and (min-width: 45em){
+    body{
+        max-width: 720px;
+        margin: auto;
+      }
+    #lastModified, #year, #lesson2footer{
+        font-size: 16px;
+      }
+     
+    main{
+        width: 720px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 330px 50px 120px;
+    }
+
+
+    .box1{
+        grid-column: 1;
+        grid-row: 1 / 5;
+      }
+      .title1 {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: center;
+      }
+      .img1{
+        grid-column: 1;
+        grid-row: 2;
+      }
+      .link1{
+        grid-column: 1;
+        grid-row: 3;
+      }
+      .exp1 {
+        grid-column: 1;
+        grid-row: 4;
+      }
+
+
+     .box2{
+        grid-column: 2;
+        grid-row: 1 / 5;
+     }
+      .title2 {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: center;
+      }
+      .img2{
+        grid-column: 2;
+        grid-row: 2;
+      }
+      .link2{
+        grid-column: 2;
+        grid-row: 3;
+      }
+      .exp2 {
+        grid-column: 2;
+        grid-row: 4;
+      }
+
+
+     .box3{
+        grid-column: 3;
+        grid-row: 1 / 5;
+     }
+      .title3 {
+        grid-column: 3;
+        grid-row: 1;
+        align-self: center;
+      }
+      .img3{
+        grid-column: 3;
+        grid-row: 2;
+      }
+      .link3{
+        grid-column: 3;
+        grid-row: 3;
+      }
+      .exp3 {
+        grid-column: 3;
+        grid-row: 4;
+      }
+    }

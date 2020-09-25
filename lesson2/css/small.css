@@ -1,0 +1,64 @@
+  body{
+    max-width: 700px;
+    margin: auto;
+  }
+  h2, p, #lastModified, #year, #lesson2footer{
+    font-family: 'Montserrat', sans-serif;
+  }
+  header, footer{
+    background-color: rgb(94, 194, 194);
+  }
+  header{
+    margin-top: 10px;
+    height: 120px;
+  }
+  h1, h2, h3{
+    font-family: 'Architects Daughter', cursive;
+    margin: .35rem;
+    text-align: center;
+  }
+  h1{
+    font-size: 1.75rem;
+  }
+  h2{
+    font-size: 1.5rem;
+}
+  h3{
+    font-size: 1.25rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .link1, .link2, .link3{
+    display: block;
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+    padding: 5px 50px 15px
+    }
+  .byuiLink{
+    color:black;
+  }
+  hr{
+    height: 1.5px;
+    background-color: #000;
+  }
+  #lastModified, #year, #lesson2footer{
+    font-size: 10px;
+  }
+  #year, #lesson2footer{
+    display: inline-block;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box1, .box2, .box3 {
+    border: 3px solid black;
+    border-radius: 7px;
+    margin: 7px;
+    background-color: rgba(170, 221, 221, .3);
+    
+  }
