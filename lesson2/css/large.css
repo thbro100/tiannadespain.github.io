@@ -1,96 +1,48 @@
-@media only screen and (min-width: 45em){
-    body{
-        max-width: 720px;
-        margin: auto;
-      }
-    #lastModified, #year, #lesson2footer{
-        font-size: 16px;
-      }
-     
-    main{
-        max-width: 720px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 50px 590px 130px;
-    }
+@media only screen and (min-width: 45em) {
+  body {
+    max-width: 720px;
+  }
 
+  #lastModified,
+  #year,
+  #lesson2footer {
+    font-size: 16px;
+  }
 
-    .box1{
-        grid-column: 1;
-        grid-row: 1 / 6;
-      }
-      .title1 {
-        grid-column: 1;
-        grid-row: 1;
-        align-self: center;
-      }
-      .site1{
-        grid-column: 1;
-        grid-row: 2;
-      }
-      .img1{
-        grid-column: 1;
-        grid-row: 4;
-      }
-      .link1{
-        grid-column: 1;
-        grid-row: 3;
-      }
-      .exp1 {
-        grid-column: 1;
-        grid-row: 5;
-      }
+  main {
+    max-width: 720px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 50px 50px 590px 130px;
+  }
 
+  .box3 {
+    grid-column: 3;
+    grid-row: 1 / 6;
+  }
 
-     .box2{
-        grid-column: 2;
-        grid-row: 1 / 6;
-     }
-      .title2 {
-        grid-column: 2;
-        grid-row: 1;
-        align-self: center;
-      }
-      .site2{
-        grid-column: 1;
-        grid-row: 2;
-      }
-      .img2{
-        grid-column: 2;
-        grid-row: 4;
-      }
-      .link2{
-        grid-column: 2;
-        grid-row: 3;
-      }
-      .exp2 {
-        grid-column: 2;
-        grid-row: 5;
-      }
+  .title3 {
+    grid-column: 3;
+    grid-row: 1;
 
+  }
 
-     .box3{
-        grid-column: 3;
-        grid-row: 1 / 6;
-     }
-      .title3 {
-        grid-column: 3;
-        grid-row: 1;
-        align-self: center;
-      }
-      .site1{
-        grid-column: 1;
-        grid-row: 2;
-      }
-      .img3{
-        grid-column: 3;
-        grid-row: 4;
-      }
-      .link3{
-        grid-column: 3;
-        grid-row: 3;
-      }
-      .exp3 {
-        grid-column: 3;
-        grid-row: 5;
-      }
-    }
+  .site3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .img3 {
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+  .link3 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .exp3 {
+    grid-column: 3;
+    grid-row: 5;
+  }
+}
