@@ -15,78 +15,18 @@
     font-size: 1.5rem;
   }
 
-  #lastModified,
-  #year,
-  #lesson2footer,
-  p {
-    font-size: 1rem;
-    margin: 5px;
-  }
-
   header {
-    margin-top: 10px;
     height: 140px;
   }
 
-  h3,
-  h4,
-  a {
-    align-self: center;
-  }
-
-  main {
-    max-width: 37em;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 35px 35px 580px 230px 80px 35px 35px 580px 210px;
-    column-gap: 10px;
-    margin: 5px;
-  }
-
-  img {
-    justify-self: center;
-  }
-
-
-}
-
-@media only screen and (min-width: 32em) {
-  body {
-    max-width: 37em;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 1rem;
-    margin: 5px;
-  }
-
-  header {
-    margin-top: 10px;
-    height: 140px;
-  }
-
-  #lastModified,
-  #year,
-  #lesson2footer {
-    font-size: 14px;
-  }
 
   main {
     max-width: 37em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px 50px 590px 230px 50px 50px 50px 590px 170px;
+    grid-template-rows: 80px 35px 35px 580px 240px 80px 35px 35px 580px 230px;
+    column-gap: 10px;
+    margin: 5px;
   }
 
   img {
