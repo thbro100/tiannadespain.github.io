@@ -3,16 +3,10 @@
     max-width: 720px;
   }
 
-  #lastModified,
-  #year,
-  #lesson2footer {
-    font-size: 16px;
-  }
-
   main {
     max-width: 720px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 50px 50px 590px 130px;
+    grid-template-rows: 80px 40px 40px 470px 330px;
   }
 
   .box3 {
@@ -23,11 +17,10 @@
   .title3 {
     grid-column: 3;
     grid-row: 1;
-
   }
 
   .site3 {
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 2;
   }
 
