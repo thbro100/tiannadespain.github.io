@@ -24,7 +24,7 @@
     max-width: 37em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 90px 35px 35px 580px 240px 80px 35px 35px 580px 230px;
+    grid-template-rows: 90px 35px 35px 580px 260px 80px 35px 35px 580px 250px;
     column-gap: 10px;
     margin: 5px;
   }

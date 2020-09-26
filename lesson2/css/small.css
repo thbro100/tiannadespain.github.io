@@ -106,7 +106,7 @@
     max-width: 32.5em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 35px 35px 880px 180px 70px 35px 35px 880px 180px 70px 35px 35px 880px 180px;
+    grid-template-rows: 70px 35px 35px 870px 180px 70px 35px 35px 870px 180px 70px 35px 35px 870px 180px;
     column-gap: 10px;
     margin: 5px;
   }
