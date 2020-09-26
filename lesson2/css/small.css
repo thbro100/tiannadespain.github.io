@@ -2,8 +2,11 @@
     max-width: 700px;
     margin: auto;
   }
-  h2, p, #lastModified, #year, #lesson2footer{
+  p, #lastModified, #year, #lesson2footer, a{
     font-family: 'Montserrat', sans-serif;
+  }
+  a{
+    padding: 3px;
   }
   header, footer{
     background-color: rgb(94, 194, 194);
@@ -12,7 +15,7 @@
     margin-top: 10px;
     height: 120px;
   }
-  h1, h2, h3{
+  h1, h2, h3, h4{
     font-family: 'Architects Daughter', cursive;
     margin: .35rem;
     text-align: center;
@@ -54,9 +57,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width:93%;
+    border: 1px solid rgb(62, 107, 107);
+    height: auto;
   }
   .box1, .box2, .box3 {
-    border: 3px solid black;
+    border: 2px solid rgb(62, 107, 107);
     border-radius: 7px;
     margin: 7px;
     background-color: rgba(170, 221, 221, .3);
