@@ -50,10 +50,12 @@
 
   #lastModified,
   #year,
-  #lesson2footer{
+  #lesson2footer,
+  #byuiLink {
     font-size: 1rem;
     display: inline-block;
   }
+
   p {
     margin: 18px;
   }
@@ -97,13 +99,14 @@
     margin: 3px;
     background-color: rgba(170, 221, 221, .3);
   }
+
   h3,
   h4,
   a {
     align-self: center;
   }
 
-  main{ 
+  main {
     max-width: 32.5em;
     display: grid;
     grid-template-columns: 1fr;
@@ -111,6 +114,7 @@
     column-gap: 10px;
     margin: 5px;
   }
+
   .box1 {
     grid-column: 1;
     grid-row: 1 / 6;
