@@ -51,7 +51,7 @@
   #lastModified,
   #year,
   #lesson2footer,
-  #byuiLink {
+  .byuiLink {
     font-size: 1rem;
     display: inline-block;
   }
