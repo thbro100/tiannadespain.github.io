@@ -55,7 +55,7 @@
     display: inline-block;
   }
   p {
-    margin: 15px;
+    margin: 18px;
   }
 
   .link1,
@@ -107,7 +107,7 @@
     max-width: 32.5em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 35px 35px 870px 180px 70px 35px 35px 870px 180px 70px 35px 35px 870px 180px;
+    grid-template-rows: 70px 35px 35px 775px 220px 70px 35px 35px 775px 200px 70px 35px 35px 775px 200px;
     column-gap: 10px;
     margin: 5px;
   }
