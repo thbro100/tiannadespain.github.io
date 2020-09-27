@@ -6,7 +6,7 @@
   main {
     max-width: 720px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 80px 40px 40px 470px 345px;
+    grid-template-rows: 80px 40px 40px 470px 400px;
   }
 
   .box3 {
