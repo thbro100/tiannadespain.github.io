@@ -76,10 +76,7 @@
     color: black;
   }
 
-  #year,
-  #lesson2footer {
-    display: inline-block;
-  }
+ 
 
   img {
     display: block;

@@ -1,0 +1,106 @@
+  body {
+    margin: auto;
+    background: lightgray;
+
+  }
+  p,
+  #lastModified,
+  #year,
+  #lesson3footer,
+  a {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a {
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  header,
+  footer {
+    background-color: gold;
+  }
+
+  header {
+    margin-top: 10px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Architects Daughter', cursive;
+    margin: .35rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  #lastModified,
+  #year,
+  #lesson3footer,
+  .byuiLink {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  p {
+    margin: 18px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 5px 50px 15px
+  }
+
+  .byuiLink {
+    color: black;
+  }
+
+  h2,
+  h3,
+  h4,
+  a {
+    align-self: center;
+  }
+
+  main {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  nav{
+    background-color: darkgray;
+    text-align: center;
+    box-shadow: 0 2px 5px gray;
+  }
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li a {
+    display: block;
+    color: lightyellow;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  nav a:hover{
+    background-color: black;
+	  color: yellow;
+  }
+
