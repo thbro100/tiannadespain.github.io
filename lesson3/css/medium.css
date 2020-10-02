@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32em) {
   body {
-    max-width: 37em;
+    max-width: 80%;
   }
 
   h1 {
@@ -13,6 +13,14 @@
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
   }
 
 }
