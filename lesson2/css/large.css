@@ -1,12 +1,12 @@
 @media only screen and (min-width: 45em) {
   body {
-    max-width: 720px;
+    max-width: 960px;
   }
 
   main {
-    max-width: 720px;
+    max-width: 960px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 80px 40px 40px 470px 400px;
+    grid-template-rows: 80px 40px 40px 620px 325px;
   }
 
   .box3 {
