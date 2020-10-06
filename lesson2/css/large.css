@@ -1,10 +1,10 @@
 @media only screen and (min-width: 45em) {
   body {
-    max-width: 960px;
+    max-width: 70em;
   }
 
   main {
-    max-width: 960px;
+    max-width: 70em;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px 40px 40px 620px 325px;
   }
