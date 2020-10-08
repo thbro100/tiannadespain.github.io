@@ -76,8 +76,42 @@
     color: black;
   }
 
- 
 
+
+  
+  main {
+    margin: 5px;
+    background-color:  rgba(170, 221, 221, .3);
+    border: 2px solid rgb(62, 107, 107);
+  }
+  
+  h3,
+  h4,
+  a {
+    align-self: center;
+  }
+  hr{
+    border: 1px solid rgb(62, 107, 107);
+  }
+  .title1,
+  .site1,
+  .link1,
+  .img1,
+  .exp1,
+  .title2,
+  .site2,
+  .link2,
+  .img2,
+  .exp2,
+  .title3,
+  .site3,
+  .link3,
+  .img3,
+  .exp3 {
+      padding: 5px;
+      position: relative;
+      z-index: 1000;
+  }
   img {
     display: block;
     margin-left: auto;
@@ -86,123 +120,5 @@
     max-width: 400px;
     border: 1px solid rgb(62, 107, 107);
     height: auto;
-  }
-
-  .box1,
-  .box2,
-  .box3 {
-    border: 2px solid rgb(62, 107, 107);
-    border-radius: 7px;
-    margin: 3px;
-    background-color: rgba(170, 221, 221, .3);
-  }
-
-  h3,
-  h4,
-  a {
-    align-self: center;
-  }
-
-  main {
-    max-width: 32.5em;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 70px 35px 35px 840px 220px 70px 35px 35px 840px 200px 70px 35px 35px 840px 200px;
-    column-gap: 10px;
-    margin: 5px;
-  }
-
-  .box1 {
-    grid-column: 1;
-    grid-row: 1 / 6;
-  }
-
-  .title1 {
-    grid-column: 1;
-    grid-row: 1;
-
-  }
-
-  .site1 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .link1 {
-    grid-column: 1;
-    grid-row: 3;
-  }
-
-  .img1 {
-    grid-column: 1;
-    grid-row: 4;
-  }
-
-  .exp1 {
-    grid-column: 1;
-    grid-row: 5;
-  }
-
-
-  .box2 {
-    grid-column: 1;
-    grid-row: 6 / 11;
-  }
-
-  .title2 {
-    grid-column: 1;
-    grid-row: 6;
-
-  }
-
-  .site2 {
-    grid-column: 1;
-    grid-row: 7;
-  }
-
-  .link2 {
-    grid-column: 1;
-    grid-row: 8;
-  }
-
-  .img2 {
-    grid-column: 1;
-    grid-row: 9;
-  }
-
-  .exp2 {
-    grid-column: 1;
-    grid-row: 10;
-  }
-
-
-  .box3 {
-    grid-column: 1;
-    grid-row: 11 / 16;
-  }
-
-  .title3 {
-    grid-column: 1;
-    grid-row: 11;
-
-  }
-
-  .site3 {
-    grid-column: 1;
-    grid-row: 12;
-  }
-
-  .link3 {
-    grid-column: 1;
-    grid-row: 13;
-  }
-
-  .img3 {
-    grid-column: 1;
-    grid-row: 14;
-  }
-
-  .exp3 {
-    grid-column: 1;
-    grid-row: 15;
+    padding: 0;
   }

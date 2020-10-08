@@ -27,12 +27,23 @@
     max-width: 37em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 90px 35px 35px 540px 315px 80px 35px 35px 540px 270px;
+    grid-template-rows: 90px 35px 35px 555px 335px 80px 35px 35px 555px 300px;
     column-gap: 10px;
     margin: 5px;
+    background-color: white;
+    border: none;
   }
-
-
+  .box1,
+  .box2,
+  .box3 {
+    border: 2px solid rgb(62, 107, 107);
+    border-radius: 7px;
+    margin: 3px;
+    background-color: rgba(170, 221, 221, .3);
+  }
+  hr{
+    display: none;
+  }
 
   .box1 {
     grid-column: 1;
