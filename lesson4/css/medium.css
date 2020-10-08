@@ -41,8 +41,9 @@
 /* THIS IS FROM THE CODE PEN  */
 
 	.navigation {
-		display: flex;
-	}
+    display: flex;
+  }
+
 	.navigation li {
 		display: block;
 		flex: 1 1 auto;
@@ -53,5 +54,7 @@
 	}
 	.navigation li:first-child {
 		display: none;
-	}
+  }
+  
+  /* THIS IS FROM THE CODEPEN */
 }

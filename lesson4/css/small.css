@@ -24,7 +24,7 @@
 
   header {
     margin-top: 10px;
-    padding: 5px;
+    height: 125px;
   }
 
   h1,
@@ -32,8 +32,6 @@
   h3,
   h4 {
     font-family: 'Montserrat', sans-serif;
-
-
     margin: .35rem;
   }
 
@@ -92,9 +90,6 @@
     margin: 0 auto;
   }
 
-  .active li {
-    background-color: #90b4d8;
-  }
 
   .spaceholder {
     background-color: #f0ac17;
@@ -107,7 +102,7 @@
   }
 
   #logo {
-    max-width: 15%;
+    max-width: 20%;
     float: left;
     padding: 10px 7%;
   }
@@ -148,4 +143,13 @@
 
   .responsive li {
     display: block;
+  }
+
+  /* THIS IS FROM THE CODEPEN */
+
+
+
+  .active {
+    border: 1px solid black;
+    border-radius: 2px;
   }
