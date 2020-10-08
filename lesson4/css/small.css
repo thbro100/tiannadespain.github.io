@@ -1,0 +1,151 @@
+  body {
+    margin: auto;
+    background: #90b4d8;
+
+  }
+
+  p,
+  #lastmodified,
+  #year,
+  #lesson3footer,
+  a {
+    font-family: 'Barlow', sans-serif;
+  }
+
+  a {
+    padding: 3px;
+    font-size: 15px;
+  }
+
+  header,
+  footer {
+    background-color: #f3c155;
+  }
+
+  header {
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+
+
+    margin: .35rem;
+  }
+
+  h3,
+  h4,
+    {
+    text-align: center;
+  }
+
+  h1 {
+
+    font-size: 1.75rem;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  #lastModified,
+  #year,
+  #lesson3footer,
+  .byuiLink {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  p {
+    margin: 18px;
+  }
+
+  footer {
+    padding: 5px 50px 15px;
+    text-align: center;
+  }
+
+  h2,
+  h3,
+  h4,
+  a {
+    align-self: center;
+  }
+
+  main {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  img {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .active li {
+    background-color: #90b4d8;
+  }
+
+  .spaceholder {
+    background-color: #f0ac17;
+    border: 2px dotted #f5f1d8;
+    font-family: inherit;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 20em;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  #logo {
+    max-width: 15%;
+    float: left;
+    padding: 10px 7%;
+  }
+
+  /* THIS IS FROM THE CODEPEN */
+  nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #2e6ca3;
+  }
+
+  .navigation {
+    list-style: none;
+    padding: 0;
+  }
+
+  .navigation li:first-child {
+    display: block;
+  }
+
+  .navigation li {
+    display: none;
+  }
+
+  .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: #f5f1d8;
+    font-weight: 700;
+  }
+
+  .navigation a:hover {
+    color: black;
+    background-color: #f5f1d8;
+  }
+
+  .responsive li {
+    display: block;
+  }

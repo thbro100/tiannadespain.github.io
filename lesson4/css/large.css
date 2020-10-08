@@ -1,0 +1,24 @@
+@media only screen and (min-width: 45em) {
+  body {
+    max-width: 64em;
+  }
+  h1{
+    padding-top: 1rem;
+  }
+  main {
+    max-width: 64em;
+  }
+  .spaceholder {
+    background-color: #f5f1d8;
+    color: black;
+    border: 2px dotted #f0ac17;
+    max-width: 55em;
+    margin: 14px auto;
+  }
+  #logo{
+    max-width: 15%;
+    float: left;
+    padding: 10px 10px 10px 130px;
+    max-height: 100px;
+  }
+}

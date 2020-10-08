@@ -1,0 +1,57 @@
+@media only screen and (min-width: 32.5em) {
+  body {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  .spaceholder {
+    background-color: #2e6ca3;
+    color:  #f5f1d8;
+    max-width: 40em;
+    margin: 12px auto;
+  }
+
+  #logo{
+    max-width: 15%;
+    float: left;
+    padding: 10px 10px;
+    max-height: 100px;
+  }
+
+
+/* THIS IS FROM THE CODE PEN  */
+
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.navigation a {
+    text-align: center;
+    
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
