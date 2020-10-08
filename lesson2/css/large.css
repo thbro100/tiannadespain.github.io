@@ -2,6 +2,10 @@
   body {
     max-width: 64em;
   }
+  h1{
+    padding-top: 2rem;
+  }
+
 
   main {
     max-width: 64em;
