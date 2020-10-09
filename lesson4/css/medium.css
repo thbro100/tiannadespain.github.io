@@ -18,6 +18,9 @@
   nav ul {
     display: flex;
   }
+  nav { 
+    max-width: 100%;
+  }
 
   nav ul li {
     flex: 1 1 100%;
