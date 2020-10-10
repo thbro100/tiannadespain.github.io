@@ -5,4 +5,12 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
-document.getElementById('lastmodified').innerHTML = `Last Updated: ${document.lastModified}`;
+let options = {
+    weekday: "long",
+    day: "numeric", 
+    month: "long",
+    year: "numeric"
+};
+
+document.getElementById("currentDate").textContent = new Date().toLocaleDateString("en-GB", options);
+document.getElementById("currentYear").innerHTML = "&copy; " + new Date().getFullYear();

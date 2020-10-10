@@ -5,7 +5,7 @@
   }
 
   p,
-  #lastmodified,
+  #currentDate,
   #year,
   #lesson3footer,
   a {
@@ -55,7 +55,7 @@
     font-size: 1.25rem;
   }
 
-  #lastModified,
+  #currentDate,
   #year,
   #lesson3footer,
   .byuiLink {
