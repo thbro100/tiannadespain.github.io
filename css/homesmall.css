@@ -2,7 +2,7 @@ body{
   max-width: 700px;
   margin: auto;
 }
-h2, p, ul, #lastModified, #year, #homepagefooter{
+h2, p, ul, #lastmodified, #currentYear, #homepagefooter{
   font-family: 'Montserrat', sans-serif;
 }
 header, footer{
@@ -46,9 +46,9 @@ hr{
   height: 1.5px;
   background-color: #000;
 }
-#lastmodified, #year, #homepagefooter{
+#lastmodified, #currentYear, #homepagefooter{
   font-size: 10px;
 }
-#year, #homepagefooter{
+#currentYear, #homepagefooter{
   display: inline-block;
 }

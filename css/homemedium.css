@@ -13,7 +13,7 @@
         filter: drop-shadow(0 4px 8px black);
       }
 
-    #lastModified, #year, #homepagefooter{
+    #lastModified, #currentYear, #homepagefooter{
         font-size: 14px;
       }
   }
