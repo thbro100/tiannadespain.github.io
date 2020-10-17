@@ -38,6 +38,18 @@
     width: 18em;
     height: 10em;
   }
+  #current,
+  #high,
+  #chill,
+  #humid,
+  #speed,
+  .weatherinfo,
+  p {
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
 
   /* five day weather box */
 
@@ -55,9 +67,7 @@
 
 
   /* Article box */
-  .article {
-    height: 25em;
-  }
+
 
   #janice {
     max-width: 25em;

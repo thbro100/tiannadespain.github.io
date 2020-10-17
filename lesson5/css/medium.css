@@ -58,16 +58,24 @@
 
   /* Hero box */
   #hero {
-    max-width: 100%;
     width: 98%;
   }
 
 
   /* weather box */
+
   .weathersum {
-    width: 13em;
-    height: 8em;
-    margin-left: 0%;
+    position: absolute;
+    top: 20px;
+    background-color: #f3c155;
+    border: 1px solid #2e6ca3;
+    padding: 1rem; 
+    box-shadow: 0 0 30px #142e46; 
+    opacity: .8; 
+    z-index: 100; 
+    width: 13em; 
+    height: 8em; 
+    margin-left: 0%; 
     top: 12%;
     right: 33%;
   }
@@ -77,6 +85,7 @@
   #chill,
   #humid,
   #speed,
+  .weatherinfo,
   p {
     font-size: 16px;
   }
@@ -119,7 +128,9 @@
   .weathericon {
     max-width: 50px;
   }
-
+  .article, #hero, .contactinfo{
+    max-width: 95%;
+  }
 
   /* Article  box */
   #janice {
@@ -128,9 +139,7 @@
     margin: 1.5em 1em;
   }
 
-  .article {
-    height: 400px;
-  }
+
 
 
   /* Contact box */
@@ -152,6 +161,7 @@
 
   .contact {
     display: block;
+    text-align: left;
   }
 
   .contacticon {

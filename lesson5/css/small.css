@@ -94,7 +94,7 @@ a {
 }
 
 main {
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -184,15 +184,11 @@ h2 {
   padding: 0;
 }
 
-.weathersum {
-  position: absolute;
-  top: 20px;
-  margin-left: 10%;
+.weathersum { 
+  display: block;
   background-color: #f3c155;
   border: 1px solid #2e6ca3;
   padding: 1rem;
-  box-shadow: 0 0 30px #142e46;
-  opacity: .8;
   z-index: 100;
 }
 
@@ -229,19 +225,20 @@ p.weatherinfo {
   display: block;
   margin: 10px auto;
   position: relative;
-  width: 95%;
+  width: 100%;
   border: .5px solid #142e46;
 }
 
 /* Article Box */
 .article {
   background-color: #f5f1d8;
-  height: 600px;
   z-index: 1;
 }
-
+#articlecontent{
+  padding: 1em;
+}
 #articletitle {
-  padding: .7rem;
+  padding-top: 1em;
 }
 
 #janice {
@@ -252,6 +249,7 @@ p.weatherinfo {
 
 #byline {
   color: #2e6ca3;
+  padding-left: 1em;
 }
 
 /* Contact Info  */
