@@ -33,8 +33,7 @@
 
   /* Weather summary box */
   .weathersum {
-    top: 18%;
-    right: 45%;
+    right: 50%;
     width: 18em;
     height: 10em;
   }
