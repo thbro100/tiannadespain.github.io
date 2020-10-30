@@ -1,0 +1,18 @@
+img{
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }

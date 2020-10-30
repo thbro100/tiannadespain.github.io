@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Lazy Loading</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tianna DeSpain">
+    <meta name="description" content="A practice of loading images">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <h1>Progressive Loading</h1>
+
+    <picture>
+        <img alt="the rolling hills of idaho" src='images/placeholder.jpg' data-src="images/beach300.jpg">
+    </picture>
+    <picture>
+        <img alt="the rolling hills of idaho" src='images/placeholder.jpg' data-src="images/beach300.jpg">
+    </picture>
+    <picture>
+        <img alt="the rolling hills of idaho" src='images/placeholder.jpg' data-src="images/beach300.jpg">
+    </picture>
+    <picture>
+        <img alt="the rolling hills of idaho" src='images/placeholder.jpg' data-src="images/beach300.jpg">
+    </picture>
+    <picture>
+        <img alt="the rolling hills of idaho" src='images/placeholder.jpg' data-src="images/beach300.jpg">
+    </picture>
+    <picture>
+        <img alt="the rolling hills of idaho" src='images/placeholder.jpg' data-src="images/beach300.jpg">
+    </picture>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Barlow family']
+            }
+        });
+    </script>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
