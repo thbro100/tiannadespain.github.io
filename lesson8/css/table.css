@@ -27,7 +27,7 @@ tfoot{
     font-size: 11px;
     line-height: 25px;
 }
-table, th, td{
+table, thead th, th, td{
     border: 1px solid rgb(175, 175, 175);
     border-collapse: collapse;
 }
