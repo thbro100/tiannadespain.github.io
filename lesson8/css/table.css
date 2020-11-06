@@ -6,7 +6,7 @@ h1{
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
-.table{
+table{
     width: 270px;
     text-align: center;
     font-family: Ubuntu, sans-serif;
@@ -14,14 +14,15 @@ h1{
     line-height: 30px;
     box-shadow: 7px 5px 10px #628ca6;
 }
-.tablehead{
+caption{
     column-span: all;
     color: black;
     font-size: 25px;
     background-color: #7fb9c2;
     line-height: 40px;
+    font-weight: bold;
 }
-.foot{
+tfoot{
     background-color: #7fb9c2;
     font-size: 11px;
     line-height: 25px;
@@ -30,21 +31,23 @@ table, th, td{
     border: 1px solid rgb(175, 175, 175);
     border-collapse: collapse;
 }
-.subhead, .highlight-data{
+
+tbody tr:nth-child(4) td:nth-child(3) {
     background-color: #628ca6;
     color: white;
 }
-.subhead{
+th{
+    background-color: #628ca6;
+    color: white;
     font-weight: bold;
     font-size: 16px;
+}
+tbody tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
 }
 .datarow{
     background-color: #e7ffed;
 }
 tr.datarow:nth-child(even){
     background-color: #e7f0ed;
-}
-.black{
-    font-style: italic;
-
 }
