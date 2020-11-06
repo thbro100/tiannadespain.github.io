@@ -1,0 +1,40 @@
+/* #e7f0ed, #e7ffed (data rows)  #628ca6, #7fb9c2 */
+
+.table{
+    width: 270px;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    margin: auto;
+    line-height: 30px;
+    box-shadow: 7px 5px 10px #628ca6;
+}
+.tablehead{
+    column-span: all;
+    color: black;
+    font-size: 25px;
+    background-color: #7fb9c2;
+    line-height: 40px;
+}
+.foot{
+    background-color: #7fb9c2;
+    font-size: 11px;
+    line-height: 25px;
+}
+table, th, td{
+    border: 1px solid rgb(175, 175, 175);
+    border-collapse: collapse;
+}
+.subhead, .highlight-data{
+    background-color: #628ca6;
+    color: white;
+}
+.subhead{
+    font-weight: bold;
+    font-size: 16px;
+}
+.datarow{
+    background-color: #e7ffed;
+}
+tr.datarow:nth-child(even){
+    background-color: #e7f0ed;
+}
