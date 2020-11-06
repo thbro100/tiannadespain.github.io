@@ -38,3 +38,7 @@ table, th, td{
 tr.datarow:nth-child(even){
     background-color: #e7f0ed;
 }
+.black{
+    font-style: italic;
+
+}
