@@ -14,13 +14,13 @@ table{
     line-height: 30px;
     box-shadow: 7px 5px 10px #628ca6;
 }
-caption{
-    column-span: all;
+thead th{
     color: black;
     font-size: 25px;
     background-color: #7fb9c2;
     line-height: 40px;
     font-weight: bold;
+    box-shadow: 4px 5px 10px #628ca6;
 }
 tfoot{
     background-color: #7fb9c2;
@@ -32,7 +32,7 @@ table, th, td{
     border-collapse: collapse;
 }
 
-tbody tr:nth-child(4) td:nth-child(3) {
+tbody tr:nth-child(5) td:nth-child(3) {
     background-color: #628ca6;
     color: white;
 }
@@ -42,7 +42,7 @@ th{
     font-weight: bold;
     font-size: 16px;
 }
-tbody tr:nth-child(5) td:nth-child(1) {
+tbody tr:nth-child(6) td:nth-child(1) {
     font-style: italic;
 }
 .datarow{
