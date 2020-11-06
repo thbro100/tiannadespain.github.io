@@ -1,5 +1,11 @@
 /* #e7f0ed, #e7ffed (data rows)  #628ca6, #7fb9c2 */
 
+h1{
+    font-size: 40px;
+    color: #628ca6;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+}
 .table{
     width: 270px;
     text-align: center;
