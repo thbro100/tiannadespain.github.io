@@ -40,7 +40,8 @@ h3,
 h4,
 label,
 #city,
-#stormdate {
+#stormdate,
+legend {
   font-family: 'Montserrat', sans-serif;
   margin: .35rem;
 }
@@ -254,4 +255,8 @@ input[type='radio'] {
 
 button, #sunidahofooter, div#button{
   text-align: center;
+}
+fieldset{
+  border: 5px, solid #2e6ca3;
+  margin-top: 2rem;
 }
