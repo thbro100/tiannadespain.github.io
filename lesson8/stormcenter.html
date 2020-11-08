@@ -34,10 +34,10 @@
     </nav>
     <main>
         <h2 id="title">Storm Center - Report Storms Here!</h2>
-        <form  class="form-example">
+        <form class="form-example" action="thankyou.html">
             <div>
                 <p>Please enter the following information to help us track the current weather!</p>
-                <p id="notice">**Astric indicates a required field.</p>
+                <p class="notice">**Astric indicates a required field.</p>
             </div>
             <div class="form-entry">
               <label for="name">*Full name: </label>
@@ -48,8 +48,9 @@
               <input type="email" name="email" id="email" required placeholder="example@gmail.com"> 
             </div>
             <div class="form-entry">
-                <label for="tel">*Phone number: </label>
-                <input type="tel" name="tel" id="tel"  required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <label for="tel">*Phone number:</label>
+                <p class="notice">Format = 123-456-7890</p>
+                <input type="tel" name="tel" id="tel"  required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             </div>
             <div class="form-entry">
                 <label for="zip">*Zip code: </label>
@@ -115,7 +116,7 @@
                 <textarea name="additional" id="additional"></textarea>
             </div>
             <div class="submit">
-                <input type="submit" id="submit" value="Submit" onclick="ThankYou()">
+                <input type="submit" id="submit" value="Submit">
             </div>
         </form>
     </main>

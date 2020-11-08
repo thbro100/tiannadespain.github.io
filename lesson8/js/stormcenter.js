@@ -3,6 +3,6 @@ function adjustRating(rating) {
 }
 function ThankYou(){
     window.open(
-        thankyou.html, _self
+        'thankyou.html', '_self'
     )
 }
