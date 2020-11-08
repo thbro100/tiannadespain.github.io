@@ -1,0 +1,85 @@
+@media only screen and (min-width: 32.5em) {
+  body {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  #logo {
+    max-width: 15%;
+    float: left;
+    padding: 10px 10px;
+    max-height: 100px;
+  }
+  #name,
+  #email,
+  #tel{
+    width: 50%;
+  }
+  #stormdate, 
+  #zip,
+  #stormtype,
+  #city{
+    width: 25%;
+    min-width: 170px;
+  }
+  input[list='stormtype']{
+    width: 25%;
+
+  }
+
+  /* NAV  */
+
+  nav ul {
+    display: flex;
+  }
+
+  nav {
+    max-width: 100%;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+ 
+  
+  textarea {
+    width: 90%;
+    height: 150px;
+  }
+  #submit{
+    font-family: 'Montserrat', sans-serif;
+    width: 15%;
+    margin: 4px 25%;
+    min-width: 200px;
+  }
+  input[type='radio']{ transform: scale(1.5); }
+
+}

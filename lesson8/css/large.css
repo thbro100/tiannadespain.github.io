@@ -1,0 +1,29 @@
+@media only screen and (min-width: 45em) {
+
+  body,
+  #hero {
+    max-width: 100%;
+  }
+
+  #logo {
+    max-width: 15%;
+    float: left;
+    padding: 10px 10px 10px 130px;
+    max-height: 100px;
+  }
+  #gallary{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  main {
+    max-width: 64em;
+  }
+
+}
+.griddivs:hover{
+  border: solid 1px #CCC;
+        box-shadow: 1px 1px 5px #999;
+}
