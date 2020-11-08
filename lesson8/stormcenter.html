@@ -62,8 +62,8 @@
             </div>
             
             <div class="form-entry">
-                <label for="stormtype">Choose the type of storm:
-                    <input list="stormtype" name="stormtype"></label>
+                <label for="stormkind">Choose the type of storm:
+                    <input list="stormtype" name="stormkind" id="stormkind"></label>
                 <datalist  id="stormtype">
                       <option value="Flash Flood">
                       <option value="Hail">
@@ -103,13 +103,13 @@
                 </select>
             </div>
             <div class="form-entry">
-                <label for="Saftey" id="danger">Are you in danger:</label>
-                <input type="radio" name="saftey" id="safeoptions">
-                <label for="yes" id="safeoptions">Yes</label>
-                <input type="radio" name="saftey" id="safeoptions">
-                <label for="maybe" id="safeoptions">Maybe</label>
-                <input type="radio" name="saftey" id="safeoptions">
-                <label for="no" id="safeoptions">No</label>
+                <label id="saftey">Are you in danger:</label>
+                <input type="radio" name="saftey" class="safeoptions" id="yes">
+                <label for="yes" class="safeoptions">Yes</label>
+                <input type="radio" name="saftey" class="safeoptions"  id="maybe">
+                <label for="maybe" class="safeoptions" >Maybe</label>
+                <input type="radio" name="saftey" class="safeoptions" id="no">
+                <label for="no" class="safeoptions" >No</label>
             </div>
             <div class="form-entry">
                 <label for="additional">Any Additonal Information?</label> <br>
