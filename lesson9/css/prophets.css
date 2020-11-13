@@ -29,7 +29,10 @@ h2{
     font-size: .9rem;
     text-align: center;
 }
-
+.cards img[data-src] {
+    filter: blur(0.5rem);
+    min-height: 15rem;
+  }
 .cards img{
     display: block;
     margin-right: auto;
@@ -37,7 +40,11 @@ h2{
     width: 70%;
     margin-bottom: 2rem;
     box-shadow: 0px 0px 6px 2px rgb(29, 29, 88);
+    filter: blur(0);
+    transition: filter 0.5s;
 }
+
+  
 footer{
     font-family: 'Barlow', sans-serif;
     text-align: center;
