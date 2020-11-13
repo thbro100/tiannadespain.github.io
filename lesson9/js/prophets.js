@@ -17,7 +17,8 @@ fetch(requestURL)
         h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
         birthDate.textContent = "Date of Birth: " + prophets[i].birthdate;
         birthPlace.textContent = "Birth place: " + prophets[i].birthplace;
-        portrait.setAttribute('src', prophets[i].imageurl);
+        portrait.setAttribute("src", "images/placeholder.png");
+        portrait.setAttribute("data-src", prophets[i].imageurl);
         portrait.setAttribute('alt', portraitAlt);
 
         card.appendChild(h2);
@@ -27,6 +28,9 @@ fetch(requestURL)
 
         document.querySelector('div.cards').appendChild(card);
     }
+    let script = document.createElement('script');
+    script.src = "javascript/observe.js";
+    document.querySelector('head').appendChild(script); 
 });
 
   
