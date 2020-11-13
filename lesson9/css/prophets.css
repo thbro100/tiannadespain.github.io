@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    background: #90b4d8;
+    font-family: 'Barlow', sans-serif;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cards{ 
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.cards section{
+    width: 15rem;
+    background-color: honeydew;
+    border: .2rem solid navy;
+
+}
+.cards p {
+    font-family: 'Barlow', sans-serif;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.cards img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 6px 2px rgb(29, 29, 88);
+}
+footer{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+@media only screen and (min-width: 37.5em) {
+    .cards {
+        flex-flow: row wrap;
+        flex: 0 1 auto;
+    }
+
+    .cards section {
+        max-width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .cards section {
+        flex: 0 0 23%;
+    }
