@@ -36,13 +36,15 @@ h3 {
 
 p {
     margin: 12px;
+    font-family: 'Barlow', sans-serif;
 }
 
 footer {
     padding: 5px 50px 15px;
+    text-align: center;
 }
 
-ain {
+main {
     max-width: 100%;
     margin: 0 auto;
 }
@@ -102,6 +104,30 @@ nav {
     border-radius: 2px;
 }
 
+/* Article Box */
+.article {
+    background-color: #f5f1d8;
+    z-index: 1;
+  }
+  
+  #articlecontent {
+    padding: 1em;
+  }
+  
+  #articletitle {
+    padding-top: 1em;
+  }
+  
+  #janice {
+    width: 75%;
+    margin: 1.5em auto;
+    box-shadow: 0 0 15px #142e46;
+  }
+  
+  #byline {
+    color: #2e6ca3;
+    padding-left: 1em;
+  }
 
 /* END NAV */
 /* Contact Info  */
@@ -119,6 +145,7 @@ nav {
 .contactinfo {
     height: 250px;
     background-color: #f0ac17;
+    margin-bottom: 1rem;
 }
 
 .contact,
@@ -144,4 +171,17 @@ nav {
 #contacttitle,
 #phoneandemail {
     padding: .5em
+}
+
+.wireframes{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+}
+.wireframes:hover {
+    color: #f0ac17;
+    background-color: #2e6ca3;
+    font-size: 24px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
 }

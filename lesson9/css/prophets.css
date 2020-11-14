@@ -23,7 +23,6 @@ h2{
     background-color: honeydew;
     border: .2rem solid navy;
     height: 25rem;
-    
 }
 
 .cards p {
@@ -34,7 +33,7 @@ h2{
 .cards img[data-src] {
     filter: blur(0.5rem);
     min-height: 15rem;
-  }
+}
 .cards img{
     display: block;
     margin-right: auto;

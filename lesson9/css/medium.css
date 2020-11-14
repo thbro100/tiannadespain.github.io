@@ -22,7 +22,12 @@
     max-height: 100px;
   }
 
-
+  /* Article  box */
+  #janice {
+    max-width: 55%;
+    float: left;
+    margin: 1.5em 1em;
+  }
 
   /* NAV  */
 
@@ -54,94 +59,7 @@
   .navigation li:first-child {
     display: none;
   }
-
-
-
-  /* Hero box */
-  #hero {
-    width: 98%;
-  }
-
-
-  /* weather box */
-
-  .weathersum {
-    position: absolute;
-    background-color: #f3c155;
-    border: 1px solid #2e6ca3;
-    padding: 1rem; 
-    box-shadow: 0 0 30px #142e46; 
-    opacity: .8; 
-    z-index: 100; 
-    width: 13em; 
-    height: 8em; 
-    margin-left: 0%; 
-    top: 12%;
-    right: 33%;
-  }
-
-  #current,
-  #high,
-  #chill,
-  #humid,
-  #speed,
-  .weatherinfo,
-  p {
-    font-size: 16px;
-  }
-
-  #weatherhead {
-    font-size: 20px;
-  }
-
-
-  /* five day weather box */
-
-  .fiveday {
-    display: block;
-    margin: 10px auto;
-    position: relative;
-    height: 175px;
-    width: 90%;
-  }
-
-  th,
-  td {
-    text-align: center;
-    padding: .2em;
-    width: 2em;
-  }
-
-  table,
-  th,
-  td {
-    border: 3px solid #2e6ca3;
-    border-collapse: collapse;
-    background-color: #f5f1d8;
-  }
-
-  table {
-    width: 80%;
-    margin: auto;
-  }
-
-  .weathericon {
-    max-width: 50px;
-  }
-  .article, #hero, .contactinfo{
-    max-width: 95%;
-  }
-
-  /* Article  box */
-  #janice {
-    max-width: 55%;
-    float: right;
-    margin: 1.5em 1em;
-  }
-
-
-
-
+  
   /* Contact box */
   .social {
     display: inline;
